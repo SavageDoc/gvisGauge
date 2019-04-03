@@ -58,7 +58,7 @@ server <- function(input, output) {
     gaugePlotRMSE <- gvisGauge( data=rmseData
                             , labelvar='Label'
                             , numvar='RMSE' 
-                            , options=list( min=LOW_GREEN_LOG
+                            , options=list( min=LOW_GREEN_LOG_RMSE
                                             , greenFrom=LOW_GREEN_LOG_RMSE
                                             , greenTo=HIGH_GREEN_LOG_RMSE
                                             , yellowFrom=LOW_AMBER_LOG_RMSE
